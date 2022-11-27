@@ -9,22 +9,19 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="App">
+    <div className="App ">
       <div className="flex justify-center mb-4">
         <a href="https://reactjs.org" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
       <div style={{ display: 'flex', flexDirection: 'column' }}>
-        <p>Base + Variant Pattern</p>
+        <p className="mb-5">Base + Variant Pattern</p>
         <ButtonBase>ButtonBase</ButtonBase>
         <br />
         <ButtonSolid>ButtonSolid</ButtonSolid>
         <br />
         <ButtonGhost>ButtonGhost</ButtonGhost>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
     </div>
   );
